@@ -1,0 +1,138 @@
+I"�<p>Markdown 练习</p>
+
+<h1 id="markdown-练习">Markdown 练习</h1>
+<h2 id="markdown-标题">Markdown 标题</h2>
+<h3 id="三级标题在这">三级标题在这</h3>
+<h4 id="这是四级标题">这是四级标题</h4>
+
+<h2 id="markdown-段落格式">Markdown 段落格式</h2>
+
+<p>这是第一段废话的开始：Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</p>
+
+<p>第二段废话在这（通过一行空格来书写新段落）。<br />
+第三段在此（段尾两个空格后再回车）
+<em>斜体文本</em> <em>斜体文本说实话下减号不太好打出来</em><br />
+<strong>粗体文本</strong><br />
+<strong>2号粗体文本</strong><br />
+<strong><em>粗斜体</em></strong><br />
+<strong><em>2号粗斜体</em></strong><br />
+<del>删除线好像不行哇</del><br />
+带下划线的文本<sup id="fnref:HTML" role="doc-noteref"><a href="#fn:HTML" class="footnote" rel="footnote">1</a></sup></p>
+
+<p>创建脚注如下<sup id="fnref:JZ" role="doc-noteref"><a href="#fn:JZ" class="footnote" rel="footnote">2</a></sup></p>
+
+<h2 id="markdown-列表">Markdown 列表</h2>
+<ul>
+  <li>第一项</li>
+  <li>第二项</li>
+  <li>第三项</li>
+</ul>
+
+<ol>
+  <li>第一层嵌套
+    <ul>
+      <li>No.1</li>
+      <li>No.2</li>
+      <li>No.3</li>
+    </ul>
+  </li>
+  <li>第二层嵌套
+    <ul>
+      <li>Test</li>
+      <li>About</li>
+      <li>Staff</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="markdown-区块">Markdown 区块</h2>
+<blockquote>
+  <p>区块引用</p>
+  <blockquote>
+    <p>区块分支一</p>
+
+    <blockquote>
+      <p>区块分支二</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p>区块中使用列表</p>
+  <ol>
+    <li>第一项</li>
+    <li>第二项
+      <ul>
+        <li>第一项</li>
+        <li>第二项</li>
+        <li>第三项</li>
+      </ul>
+    </li>
+  </ol>
+</blockquote>
+
+<ul>
+  <li>第一项
+    <blockquote>
+      <p>菜鸟教程
+学的不仅是技术更是梦想</p>
+    </blockquote>
+  </li>
+  <li>第二项</li>
+</ul>
+
+<h2 id="markdown-代码">Markdown 代码</h2>
+<p><code class="language-plaintext highlighter-rouge">printf()</code> 函数</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">RUNOOB</span><span class="dl">'</span><span class="p">);</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>javascript
+$(document).ready(function () {
+alert('RUNOOB');
+});
+</code></pre></div></div>
+
+<h2 id="markdown-链接">Markdown 链接</h2>
+<p>这是一个链接 <a href="https://www.runoob.com">菜鸟教程</a><br />
+<a href="https://www.baidu.com">https://www.baidu.com</a></p>
+<h2 id="markdown-图片">Markdown 图片</h2>
+
+<p><img src="https://z3.ax1x.com/2021/04/25/cxlUOO.jpg" width="50%" /></p>
+
+<h2 id="markdown-表格">Markdown 表格</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">左对齐</th>
+      <th style="text-align: right">右对齐</th>
+      <th style="text-align: center">居中对齐</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">单元格</td>
+      <td style="text-align: right">单元格</td>
+      <td style="text-align: center">单元格</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">单元格</td>
+      <td style="text-align: right">单元格</td>
+      <td style="text-align: center">单元格</td>
+    </tr>
+  </tbody>
+</table>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:HTML" role="doc-endnote">
+      <p>借用了HTML语言 <a href="#fnref:HTML" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:JZ" role="doc-endnote">
+      <p>这是一个脚注 <a href="#fnref:JZ" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
