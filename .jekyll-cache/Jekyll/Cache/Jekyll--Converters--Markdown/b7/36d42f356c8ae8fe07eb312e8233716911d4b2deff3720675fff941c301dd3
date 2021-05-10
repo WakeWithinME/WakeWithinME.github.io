@@ -1,0 +1,65 @@
+I"u<h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
+
+<p>网站公网地址：<a href="https://naive0910.github.io">https://naive0910.github.io</a><br />
+网站源代码Github仓库地址：<a href="https://github.com/Naive0910/Naive0910.github.io.git">https://github.com/Naive0910/Naive0910.github.io.git</a></p>
+
+<h2 id="一网站目录结构">一、网站目录结构</h2>
+<p><img src="https://z3.ax1x.com/2021/04/25/cxlUOO.jpg" width="75%" /></p>
+
+<h2 id="二网站截图">二、网站截图</h2>
+<ul>
+  <li>
+    <h3 id="首页">首页</h3>
+    <p><img src="https://z3.ax1x.com/2021/04/25/cxoWKs.jpg" width="75%" /></p>
+  </li>
+  <li>
+    <h3 id="blog列表页">Blog列表页</h3>
+    <p><img src="https://z3.ax1x.com/2021/04/25/cxoIaV.jpg" width="75%" /></p>
+  </li>
+  <li>
+    <h3 id="两篇post">两篇Post</h3>
+    <ul>
+      <li>
+        <h4 id="markdown练习">Markdown练习</h4>
+        <p><img src="https://z3.ax1x.com/2021/04/25/cx7J6H.jpg" width="75%" /></p>
+      </li>
+      <li>
+        <h4 id="实验报告">实验报告</h4>
+        <p><img src="https://z3.ax1x.com/2021/04/25/cx7YXd.jpg" width="75%" /></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="一个staff列表页">一个Staff列表页</h3>
+    <p><img src="https://z3.ax1x.com/2021/04/25/cxo5V0.jpg" width="75%" /></p>
+  </li>
+  <li>
+    <h3 id="一个作者简介页面">一个作者简介页面</h3>
+    <p><img src="https://z3.ax1x.com/2021/04/25/cxohbq.jpg" width="75%" /></p>
+  </li>
+  <li>
+    <h3 id="一个about页面">一个About页面</h3>
+    <p><img src="https://z3.ax1x.com/2021/04/25/cxofrn.jpg" width="75%" /></p>
+  </li>
+</ul>
+
+<h2 id="三实验过程">三、实验过程</h2>
+<ol>
+  <li>在WSL上安装Jekyll。</li>
+  <li>在Windows 10 上安装VSCode以及Remote插件，并通过Remote插件连接WSL。</li>
+  <li>在VSCode中，按照讲义里“Jekyll官方文档”的“Step by Step Tutorial” 的内容，完成第1-9步。</li>
+  <li>通过“jekyll serve”运行调试网站，并将Markdown练习内容依次以帖子形式发布到网站上。</li>
+  <li>在WSL.上安装nginx。</li>
+  <li>通过“jekylI build” 编译网站，并将编译得到的site 目录部署到nginx上,并检查内容是否正确。</li>
+  <li>将网站源代码push到Github.com网站，并通过Github.io网站检查JekylI代码是否被正确编译。</li>
+</ol>
+
+<h2 id="四总结">四、总结</h2>
+<ol>
+  <li>在学习“Step by Step Tutorial”教程的过程中，遇见了一个错误，有一篇帖子（Markdown文件）怎么也无法显示，我将教程来来回回看了好几遍，最后才发现是在创建文件从教程中复制文件名时，文件名最后一位多复制了一个空格，导致文件没有明确的格式。这是一个粗心的错误，通过这个错误我深刻到了认识到了计算机对各种输入以及指令的严格要求。</li>
+  <li>在将_site文件夹部署到Nginx上时，我参考了教程<a href="https://blog.csdn.net/qq_43279579/article/details/110354816">Nginx部署第一个网页</a>,但教程中有一点点错误，在将项目从Github的clone后，修改Nginx配置文件时，教程中只将配置目录写到了/etc/nginx/sites-enabled/XXX.gthub.io，而没有深入到/_site文件，在通过与小组成员的讨论之后，我们摸索出了正确的解决办法。</li>
+  <li>使用Markdown语言练习时，在本地的Markdown编辑器中可以渲染出表格，但在部署到Nginx和Github上的项目都不能渲染出。百度搜索教程后，我才知道是因为没有在syles.scss文件中设置表格的渲染样式，添加好样式之后即可正常渲染了。</li>
+  <li>菜鸟教程中在Markdown里面插入图片时用的链接地址，我不知道该怎么把图片用链接展示，然后百度搜索，了解到了“图床”这个概念，并解决了插入图片的问题。</li>
+  <li>实验心得体会：使用jekyll编写网页算是入门了，整个过程比自己想的要简单一些，但是学习过程中大都是在刷教程，对教程中的每一步操作都是囫囵吞枣，目前止步于把别人的东西复制了一遍，能够正常运行就行了。这可能也是学习初期的一个必备过程吧，希望在以后的课程中能跟着老师学到更多的东西，正确搭建一个又精美又有技术含量的个人博客。</li>
+</ol>
+:ET

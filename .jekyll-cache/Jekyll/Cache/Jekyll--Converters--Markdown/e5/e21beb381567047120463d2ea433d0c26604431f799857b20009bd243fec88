@@ -1,0 +1,73 @@
+I"X<h1 id="web应用软件开发实训---第3次作业---git使用">WEB应用软件开发实训 - 第3次作业 - Git使用</h1>
+<blockquote>
+  <p>learngit 项目地址为：<a href="https://github.com/Naive0910/learngit.git">https://github.com/Naive0910/learngit.git</a></p>
+</blockquote>
+
+<h2 id="一必做部分">一、必做部分</h2>
+<h3 id="1-安装git">1. 安装Git</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2wWR.jpg" width="50%" /></p>
+<h3 id="2-创建版本库">2. 创建版本库</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2twF.jpg" width="50%" /></p>
+<h3 id="3-版本控制">3. 版本控制</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2No4.jpg" width="50%" /></p>
+<h3 id="4-版本回退">4. 版本回退</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2dY9.jpg" width="50%" /></p>
+<h3 id="5-工作区和暂存区">5. 工作区和暂存区</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2DQx.jpg" width="50%" /></p>
+<h3 id="6-管理修改">6. 管理修改</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2ry6.jpg" width="50%" /></p>
+<h3 id="7-撤销修改">7. 撤销修改</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2aFJ.jpg" width="50%" /></p>
+<h3 id="8-删除文件">8. 删除文件</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2sOK.jpg" width="50%" /></p>
+<h3 id="9-远程仓库">9. 远程仓库</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2cwD.jpg" width="50%" /></p>
+<h3 id="10-添加到远程仓库">10. 添加到远程仓库</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY26eO.jpg" width="50%" /></p>
+<h3 id="11-从远程仓库克隆">11. 从远程仓库克隆</h3>
+<p><img src="https://z3.ax1x.com/2021/05/09/gY2BS1.jpg" width="50%" /></p>
+<h2 id="二选做部分">二、选做部分</h2>
+<h3 id="一-分支管理">（一） 分支管理</h3>
+
+<h4 id="1-创建与合并分支">1. 创建与合并分支</h4>
+<p><img src="https://z3.ax1x.com/2021/05/09/gYR6cq.jpg" width="50%" /></p>
+<h4 id="2-解决冲突">2. 解决冲突</h4>
+<p><img src="https://z3.ax1x.com/2021/05/09/gYRRBT.jpg" width="50%" /></p>
+<h4 id="3-分支管理策略">3. 分支管理策略</h4>
+<p><img src="https://z3.ax1x.com/2021/05/09/gYR2uV.jpg" width="50%" /></p>
+<h4 id="4-bug分支">4. Bug分支</h4>
+<p><img src="https://z3.ax1x.com/2021/05/09/gYRy3n.jpg" width="50%" /></p>
+<h4 id="5-feature分支">5. Feature分支</h4>
+<p><img src="https://z3.ax1x.com/2021/05/09/gYRDhj.jpg" width="50%" /></p>
+<h4 id="6-多人协作">6. 多人协作</h4>
+<p><img src="https://z3.ax1x.com/2021/05/09/gYRcj0.jpg" width="50%" /></p>
+<h3 id="二-标签管理">（二） 标签管理</h3>
+
+<h4 id="1-创建标签">1. 创建标签</h4>
+<p><img src="https://z3.ax1x.com/2021/05/09/gYR0Ag.jpg" width="50%" /></p>
+<h4 id="2-操作标签">2. 操作标签</h4>
+<p><img src="https://z3.ax1x.com/2021/05/09/gYRBNQ.jpg" width="50%" /></p>
+<h3 id="三自定义git">（三）自定义Git</h3>
+
+<h4 id="配置别名">配置别名</h4>
+<p><img src="https://z3.ax1x.com/2021/05/09/gYRWHU.jpg" width="50%" /></p>
+
+<h2 id="三实验过程">三、实验过程</h2>
+<ol>
+  <li>打开 VSCode，连接 WSL 后，跟随讲义 learngit ，一步一步完成操作。</li>
+  <li>了解Git的作用后，安装Git并创建版本库。</li>
+  <li>使用 git add、git status、git commit 命令将本地仓库内容提交，并学习如何管理文件的修改，撤销文件的修改，进行版本回退等。</li>
+  <li>使用 git push 命令将本地仓库添加到远程仓库上，并使用 git clone 命令克隆别的远程仓库。</li>
+  <li>学习对项目的分支进行管理，例如，怎样创建分支与合并分支并解决合并分支事出现的冲突，如何暂存分支修改紧急 Bug，怎样使得多人协作一个项目。</li>
+  <li>用 git tag 命令对项目的不同提交加上标签，分配不同的版本号，方便后期查询。</li>
+  <li>学习 Gitte 的使用，并将本地项目push到 Gitte 上，体验 Github 与 Gitte 在使用上的异同。</li>
+  <li>对 Git 进行自定义，忽略冗余的特殊文件、配置别名，搭建 Git 服务器等。</li>
+</ol>
+
+<h2 id="四总结">四、总结</h2>
+
+<p>  通过对 Git 的学习，我清楚了 Git 的重要作用，并可以熟练的使用 Git 的一些指令，将本地仓库修改后，部署到远程仓库。在将 SSH Key 加入到GIihub时，教程让去查用户目录下是否有 .ssh 目录，我的目录下没有此文件夹，但我记得之前配置过 SSH Key ，于是就去百度搜“如何在Ubuntu显示 SSH Key ？”，搜索之后知道是使用“cat ~/.ssh/id_rsa.pub”，可以打印出 SSH Key，通过这条命令看得出 .ssh  是隐藏文件夹，它确实存在，但不清除为什么在我的电脑中显示不出来。得到 SSH Key 后，就很顺利地完成了配置。在使用过程中对于Git 中比较长的命令，我们可以用比较简短的且不和库中冲突的简写来替代长命令。</p>
+
+<p>  总的来说，Git 使用起来不是很困难，而且教程比较详细，我现在已经有了一些使用基础，一步一步来不成问题。但由于命令较多，能够完全掌握应该需要花费更多的时间去熟悉。</p>
+
+:ET
